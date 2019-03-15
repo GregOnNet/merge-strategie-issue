@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "overwrite": {
+      "description": "Overriding an existing file should work.",
+      "factory": "./merge-strategie-issue/index#mergeStrategieIssue"
+    }
+  }
+}
